@@ -1,3 +1,70 @@
 body {
   font-family: "Oswald", sans-serif;
+  background-color: #eff5f8;
+}
+
+.container {
+  margin: 150px auto;
+  width: 600px;
+  background-color: #f7fcff;
+  border-radius: 10px;
+}
+header {
+  font-size: 30px;
+  color: #273c46;
+  line-height: 1.5;
+  text-align: center;
+  padding: 5px 0;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+form {
+  padding: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  box-shadow: 0px 20px 50px rgba(43, 47, 55, 0.3);
+  border-radius: 10px;
+  background-color: #f4f6f8;
+}
+.input-field {
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 15px 30px;
+  border: 1px solid #66686b;
+  border-radius: 40px;
+}
+.submit-button {
+  width: 150px;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: #709fb5;
+  color: #fff;
+  cursor: pointer;
+}
+.recipe-result {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 2;
+  color: #273c46;
+  padding-left: 15px;
+  border-left: 3px solid #709fb5;
+  box-shadow: 0px 20px 50px rgba(43, 47, 55, 0.2);
+}
+footer {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #273c46;
+  text-align: center;
+  padding: 15px 0;
+}
+a {
+  color: #709fb5;
 }

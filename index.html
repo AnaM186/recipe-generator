@@ -13,30 +13,41 @@
     <title>Recipe generator</title>
   </head>
   <body>
-    <head>
-      <h1>AI Recipe Generator</h1>
-    </head>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Type here"
-          required
-          autofocus
-          aoutocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>Recipe will be generated here</div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/AnaM186">Ana Moskalenko</a>, open-sourced on
-      <a href="https://github.com/AnaM186/recipe-generator">GitHub</a> and is
-      hosted on
-      <a href="https://ai-recipe-generator-shecodes-project.netlify.app/"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Type here.."
+            required
+            autofocus
+            aoutocomplete="off"
+            class="input-field"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe-result">
+          Recipe will be generated here <br />
+          Wait for a few seconds
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/AnaM186" target="_blank">Ana Moskalenko</a>,
+        open-sourced on
+        <a href="https://github.com/AnaM186/recipe-generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a
+          href="https://ai-recipe-generator-shecodes-project.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>

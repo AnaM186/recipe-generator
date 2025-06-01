@@ -54,7 +54,7 @@ form {
   font-size: 16px;
   line-height: 2;
   color: #273c46;
-  padding-left: 15px;
+  padding: 15px;
   border-left: 3px solid #709fb5;
   box-shadow: 0px 20px 50px rgba(43, 47, 55, 0.2);
 }

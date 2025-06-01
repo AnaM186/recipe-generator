@@ -12,9 +12,12 @@ body {
 header {
   font-size: 30px;
   color: #273c46;
+  background-color: #f4f6f8;
   line-height: 1.5;
   text-align: center;
-  padding: 5px 0;
+  padding: 2px 0;
+  box-shadow: 0px 20px 50px rgba(43, 47, 55, 0.3);
+  border-radius: 20px;
 }
 
 main {
@@ -23,10 +26,10 @@ main {
 
 form {
   padding: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0px;
   display: flex;
   box-shadow: 0px 20px 50px rgba(43, 47, 55, 0.3);
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #f4f6f8;
 }
 .input-field {
@@ -54,7 +57,7 @@ form {
   font-size: 16px;
   line-height: 2;
   color: #273c46;
-  padding: 15px;
+  padding-left: 15px;
   border-left: 3px solid #709fb5;
   box-shadow: 0px 20px 50px rgba(43, 47, 55, 0.2);
 }
@@ -63,7 +66,8 @@ footer {
   line-height: 1.5;
   color: #273c46;
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
+  margin-top: 30px;
 }
 a {
   color: #709fb5;

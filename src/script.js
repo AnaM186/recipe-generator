@@ -19,6 +19,7 @@ function getRecipeData(event) {
   axios.get(apiUrl).then(generateRecipe);
   let recipeResultElement = document.querySelector("#recipe-result");
   recipeResultElement.innerHTML = `Generating the perfect ${inputElement.value} recipe...`;
+  recipeResultElement.classList.remove("hidden");
 }
 
 let recipeFormElement = document.querySelector("#recipe-form");

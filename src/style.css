@@ -23,14 +23,21 @@ header {
 main {
   margin-bottom: 30px;
 }
-
-form {
+.form-container {
   padding: 30px;
   margin: 30px 0px;
-  display: flex;
   box-shadow: 0px 20px 50px rgba(43, 47, 55, 0.3);
   border-radius: 20px;
   background-color: #f4f6f8;
+}
+
+form {
+  display: flex;
+  margin-top: 5px;
+}
+label {
+  opacity: 0.9;
+  color: #273c46;
 }
 .input-field {
   width: 80%;
@@ -57,9 +64,15 @@ form {
   font-size: 16px;
   line-height: 2;
   color: #273c46;
-  padding-left: 15px;
+  padding: 20px;
   border-left: 3px solid #709fb5;
   box-shadow: 0px 20px 50px rgba(43, 47, 55, 0.2);
+}
+.recipe-result strong {
+  color: #709fb5;
+}
+.hidden {
+  display: none;
 }
 footer {
   font-size: 14px;

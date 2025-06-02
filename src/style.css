@@ -85,3 +85,12 @@ footer {
 a {
   color: #709fb5;
 }
+
+.blinker {
+  animation: blinker 1s ease-in-out infinite alternate;
+}
+@keyframes blinker {
+  to {
+    opacity: 0;
+  }
+}
